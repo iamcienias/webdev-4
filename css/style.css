@@ -1,0 +1,110 @@
+body{
+    background: #4c6580;
+    font-family: 'Roboto', sans-serif;
+
+}
+button{
+    border: none;
+    box-shadow: none;
+    padding: 0;
+}
+button:hover{
+    cursor: pointer;
+}
+a:hover{
+    cursor: pointer;
+    color: #4c6580;
+}
+.container{
+    max-width: 960px;
+    margin: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+nav{
+    background: #fff;
+    width: 100%;
+    max-height: 60px;
+    display: inline-block;
+}
+
+.hamburger{
+    height: 60px;
+    width: 60px;
+    background: #56ccc8;
+    position: relative;
+    display: inline-block;
+    float: left;
+}
+.hamburger__icon{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+.menu{
+    display: inline-block;
+    float: left;
+    background: #fff;
+    height: 60px;
+}
+.menu ul li{
+    display: inline-block;
+    padding: 20px;
+}
+
+.menu ul li a{
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.menu ul{
+    padding: 0 0 0 20px;
+    margin: 0;
+}
+.menubuttons{
+    display: inline-block;
+    float: right;
+    max-height: 60px;
+}
+.search{
+    height: 60px;
+    width: 60px;
+    background: #fff;
+    position: relative;
+    display: inline-block;
+    border-right: 1px solid #b2b9bd;
+    float: left;
+}
+
+.search__icon{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.social{
+    display: inline-block;
+}
+
+.social button{
+    height: 60px;
+    width: 60px;
+    background: #fff;
+    position: relative;
+    display: inline-block;
+    float: left;
+}
+
+.login{
+    display: inline-block;
+}
+.login button{
+    height: 60px;
+    width: 60px;
+    background: #fff;
+    position: relative;
+    display: inline-block;
+    border-left: 1px solid #b2b9bd;
+    float: left;
+}
