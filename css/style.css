@@ -1,110 +1,112 @@
-body{
+/*core*/
+body {
     background: #4c6580;
     font-family: 'Roboto', sans-serif;
 
 }
-button{
+button {
     border: none;
     box-shadow: none;
     padding: 0;
 }
-button:hover{
+button:hover {
     cursor: pointer;
 }
-a:hover{
+a:hover {
     cursor: pointer;
     color: #4c6580;
 }
-.container{
+.container {
     max-width: 960px;
     margin: auto;
     padding-left: 15px;
     padding-right: 15px;
 }
-
-nav{
+/* navbar */
+nav {
     background: #fff;
     width: 100%;
     max-height: 60px;
-    display: inline-block;
-}
+    display: flex;
+    justify-content: space-between;
 
-.hamburger{
+}
+.navigation {
+    display: flex;
+}
+.hamburger {
     height: 60px;
     width: 60px;
     background: #56ccc8;
     position: relative;
-    display: inline-block;
-    float: left;
 }
-.hamburger__icon{
+.hamburger__icon {
     position: absolute;
     top: 20px;
     left: 20px;
 }
-.menu{
-    display: inline-block;
-    float: left;
+.navigation__menu {
+
+    width: 500px;
     background: #fff;
     height: 60px;
 }
-.menu ul li{
+.navigation__menu ul li {
     display: inline-block;
     padding: 20px;
 }
 
-.menu ul li a{
+.navigation__menu ul li a {
     font-weight: 400;
     font-size: 16px;
 }
 
-.menu ul{
+.navigation__menu ul {
     padding: 0 0 0 20px;
     margin: 0;
 }
-.menubuttons{
-    display: inline-block;
-    float: right;
+.menubuttons {
+
     max-height: 60px;
 }
-.search{
+
+.buttons {
+    display: flex;
+    justify-content: flex-end;
+}
+.search {
     height: 60px;
     width: 60px;
     background: #fff;
     position: relative;
-    display: inline-block;
+    justify-content: flex-end;
     border-right: 1px solid #b2b9bd;
-    float: left;
+
 }
 
-.search__icon{
+.search__icon {
     position: absolute;
     top: 20px;
     left: 20px;
 }
 
-.social{
-    display: inline-block;
-}
-
-.social button{
+.social {
     height: 60px;
     width: 60px;
     background: #fff;
     position: relative;
-    display: inline-block;
-    float: left;
+    justify-content: flex-end;
 }
-
-.login{
-    display: inline-block;
-}
-.login button{
+.login {
     height: 60px;
     width: 60px;
     background: #fff;
     position: relative;
-    display: inline-block;
+    justify-content: flex-end;
     border-left: 1px solid #b2b9bd;
     float: left;
+}
+/* content */
+.content{
+
 }

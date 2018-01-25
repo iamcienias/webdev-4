@@ -1,58 +1,99 @@
 <!doctype html>
 
 <head>
-  <meta charset="utf-8">
+    <meta charset="utf-8">
 
-  <title>weekly webdev challenge #4</title>
-  <meta name="description" content="challenge #4">
-  <meta name="author" content="frontendy">
-  <link rel="stylesheet" href="css/style.css">
-  <link href="https://fonts.googleapis.com/css?family=Roboto:100,400,500,700" rel="stylesheet">
+    <title>weekly webdev challenge #4</title>
+    <meta name="description" content="challenge #4">
+    <meta name="author" content="frontendy">
+    <link rel="stylesheet" href="css/style.css">
+    <link
+        href="https://fonts.googleapis.com/css?family=Roboto:100,400,500,700"
+        rel="stylesheet">
 
 </head>
 <body>
-<div class="container">
-    <nav>
-        <button class="hamburger">
-            <img src="img/menu_icon.png" class="hamburger__icon"/>
-        </button>
-        <div class="menu">
-            <ul>
-                <li><a>Home</a></li>
-                <li><a>Store</a></li>
-                <li><a>Blog</a></li>
-                <li><a>About</a></li>
-                <li><a>Contact</a></li>
-            </ul>
+    <div class="container">
+        <nav>
+            <div class="navigation">
+                <button class="hamburger">
+                    <img src="img/menu_icon.png" class="hamburger__icon"/>
+                </button>
+                <div class="navigation__menu">
+                    <ul>
+                        <li>
+                            <a>Home</a>
+                        </li>
+                        <li>
+                            <a>Store</a>
+                        </li>
+                        <li>
+                            <a>Blog</a>
+                        </li>
+                        <li>
+                            <a>About</a>
+                        </li>
+                        <li>
+                            <a>Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="buttons">
+                <button class="search">
+                    <img src="img/search_icon.png" class="search__icon"/>
+                </button>
+                <button class="social facebook">
+                    <img src="img/Facebook_icon.png" class="facebook__icon"/>
+                </button>
+
+                <button class="social twitter">
+                    <img src="img/Twitter_icon.png" class="twitter__icon"/>
+                </button>
+
+                <button class="social gplus">
+                    <img src="img/gplus_icon.png" class="gplus__icon"/>
+                </button>
+
+                <button class="login">
+                    <img src="img/user.png" class="user__icon"/>
+                </button>
+            </div>
+
+        </nav>
+        <div class="content">
+            <section class="left">
+                <div class="menu">
+                    <ul>
+                        <li>
+                            <a>Home</a>
+                        </li>
+                        <li>
+                            <a>Store</a>
+                        </li>
+                        <li class="dropdown"> 
+                            <a>Blog</a>
+                        </li>
+                        <li>
+                            <a>Community</a>
+                        </li>
+                        <li>
+                            <a>Contests</a>
+                        </li>
+                        <li>
+                            <a>About</a>
+                        </li>
+                        <li>
+                            <a>Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="contact"></div>
+
+            </section>
+            <section class="right"></section>
         </div>
-        <div class="menubuttons">
-        <button class="search">
-            <img src="img/search_icon.png" class="search__icon"/>
-        </button>
-        <div class="social">
-            <button class="facebook">
-                <img src="img/Facebook_icon.png" class="facebook__icon"/>
-            </button>
-
-            <button class="twitter">
-                <img src="img/Twitter_icon.png" class="twitter__icon"/>
-            </button>
-
-            <button class="gplus">
-                <img src="img/gplus_icon.png" class="gplus__icon"/>
-            </button>
-
-        </div>
-        <div class="login">
-            
-            <button class="login__user">
-                <img src="img/user.png" class="user__icon"/>
-            </button>
-        </div>
-        </div>
-    </nav>
-
-
-</div>
+    </div>
 
 </body>
